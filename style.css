@@ -1,0 +1,105 @@
+/*公用部分*/
+
+div,
+span {
+    font-family: Microsoft YaHei, Verdana, Sans-serif;
+}
+
+.text-highlight {
+    color: rgba(255, 153, 0, 1);
+}
+
+.text-bold {
+	font-weight: bold;
+}
+.text-2rem{
+	line-height: 2rem;
+}
+
+
+/*图片轮播*/
+
+.swiper-container {
+    height: 300px;
+}
+
+.swiper-container img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.swiper-bottom {
+    /*display:  block;*/
+    /*position: relative;*/
+}
+
+.swiper-pagination {
+    bottom: 2.5rem !important;
+    /*bottom: 30px !important;	*/
+}
+
+.collection-title {
+    bottom: 0px;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: rgba(52, 52, 52, .5);
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    z-index: 100;
+}
+
+
+/*藏品信息*/
+
+.collection-title > span {
+    padding: 0.2rem 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.collection-info {
+    margin: 0px;
+}
+
+.card {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.list-block .item-title {
+    text-align: left;
+}
+
+.collection-tag {
+    display: inline-block;
+    margin: 0 0 0 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+
+/*店铺信息*/
+
+.shop-info {
+    text-align: center;
+}
+.shop-info .text-block{
+	border-right: 1px solid rgba(151,151,151,0.5);
+}
+.shop-info .text-block span{
+	display: block;
+
+}
+.shop-view{
+	margin-top: 10px;
+}
+.shop-view span{
+	display: inline-block;
+	border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 14px;
+}
