@@ -10,10 +10,11 @@ span {
 }
 
 .text-bold {
-	font-weight: bold;
+    font-weight: bold;
 }
-.text-2rem{
-	line-height: 2rem;
+
+.text-2rem {
+    line-height: 2rem;
 }
 
 
@@ -35,10 +36,10 @@ span {
 
 .swiper-pagination {
     bottom: 2.5rem !important;
-    /*bottom: 30px !important;	*/
+    /*bottom: 30px !important;  */
 }
 
-.collection-title {
+.collection-title{
     bottom: 0px;
     height: 2.5rem;
     line-height: 2.5rem;
@@ -86,20 +87,88 @@ span {
 .shop-info {
     text-align: center;
 }
-.shop-info .text-block{
-	border-right: 1px solid rgba(151,151,151,0.5);
-}
-.shop-info .text-block span{
-	display: block;
 
+.shop-info .text-block {
+    border-right: 1px solid rgba(151, 151, 151, 0.5);
 }
-.shop-view{
-	margin-top: 10px;
+
+.shop-info .text-block span {
+    display: block;
 }
-.shop-view span{
-	display: inline-block;
-	border: 1px solid gray;
+
+.shop-view {
+    margin-top: 10px;
+}
+
+.shop-view span {
+    display: inline-block;
+    border: 1px solid gray;
     border-radius: 5px;
     padding: 3px 10px;
     font-size: 14px;
+}
+
+
+/*藏品详情*/
+
+.collection-detail img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/*鉴定资料*/
+
+.info-box {
+    border: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+.info-date {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding-left: 18px;
+}
+
+.info-show {
+    margin: 0;
+}
+
+.info-show img {
+    height: 80px;
+    width: 80px;
+    margin: 0px 15px 18px 18px;
+}
+
+.collection-authenticate ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.collection-authenticate ul > li {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.info-more {
+    display: block;
+    border-top: 1px solid rgba(151, 151, 151, 0.5);
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    width: 100%;
+}
+
+.collection-auction ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.collection-auction ul > li {
+    font-size: 16px;
+    line-height: 22px;
+}
+.collection-auction ul > li.li-small {
+    font-size: 12px;
+    line-height: 18px;
 }

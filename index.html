@@ -11,12 +11,14 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet" href="lib/sm/0.5.8/css/sm.css">
     <link rel="stylesheet" href="lib/sm/0.5.8/css/sm-extend.css">
+    <!-- <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.5.8/css/sm.css">
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.5.8/css/sm-extend.css"> -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div class="content">
-        <!-- Slider -->
+        <!-- 图片幻灯片 -->
         <div class="swiper-container" data-space-between='10'>
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="images/header1.jpg" alt=""></div>
@@ -90,15 +92,29 @@
                         <li class="item-content">
                             <div class="item-media"><i class="icon icon-f7"></i></div>
                             <div class="item-inner">
-                                <div class="item-title">商品名称</div>
-                                <div class="item-after">杜蕾斯</div>
+                                <div class="item-title">类型</div>
+                                <div class="item-after">玉石吊坠</div>
                             </div>
                         </li>
                         <li class="item-content">
                             <div class="item-media"><i class="icon icon-f7"></i></div>
                             <div class="item-inner">
-                                <div class="item-title">型号</div>
-                                <div class="item-after">极致超薄型</div>
+                                <div class="item-title">存货地</div>
+                                <div class="item-after pull-left">北京</div>
+                            </div>
+                        </li>
+                        <li class="item-content">
+                            <div class="item-media"><i class="icon icon-f7"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title">重量</div>
+                                <div class="item-after">24.8g</div>
+                            </div>
+                        </li>
+                        <li class="item-content">
+                            <div class="item-media"><i class="icon icon-f7"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title">尺寸</div>
+                                <div class="item-after">40.0*24.0*16.0mm</div>
                             </div>
                         </li>
                     </ul>
@@ -106,18 +122,74 @@
             </div>
         </div>
         <!-- 藏品详情 -->
-        <div class="card">
+        <div class="card collection-detail">
             <div class="card-content">
                 <div class="card-content-inner">藏品详情 </div>
                 <hr/>
+                <div class="content-padded">
+                    <p>省级大师祥许永祥，从事雕刻事业近30年，多次在各种大赛中获得金奖、银奖，在秋季东南拍卖会上，其作品《李白醉酒》以6.5万元成交。此作品雕刻精美，细腻，人物雕刻栩栩如生，是不可多得的藏品。送精美锦盒，附作者与该作品的合影。</p>
+                </div>
+                <img src="images/header1.jpg" alt="">
+                <img src="images/header2.jpg" alt="">
+                <img src="images/header3.jpg" alt="">
+                <img src="images/detail1.jpg" alt="">
+                <img src="images/detail2.jpg" alt="">
+                <img src="images/detail3.jpg" alt="">
             </div>
         </div>
-    </div>
-    <!-- 你的html代码 -->
-    <script type='text/javascript' src='lib/zepto.js' charset='utf-8'></script>
-    <script type='text/javascript' src='lib/sm/0.5.8/js/sm.js' charset='utf-8'></script>
-    <script type='text/javascript' src='lib/sm/0.5.8/js/sm-extend.js' charset='utf-8'></script>
-    <script type='text/javascript' src='./collection.js' charset='utf-8'></script>
+        <!-- 鉴定资料 -->
+        <div class="card collection-authenticate">
+            <div class="card-header">鉴定资料</div>
+            <div class="card-content">
+                <div class="card-content-inner">
+                    <div class="info-box">
+                        <div class="info-date">2015-01-19</div>
+                        <div class="info-show">
+                            <img class="pull-left" src="images/judge.jpg">
+                            <div class="info-detail">
+                                <ul>
+                                    <li>和田玉羊脂挂件</li>
+                                    <li>国宝级/2015</li>
+                                    <li>金银制品质量监督站/马萧萧</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info-more">更多</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 交易记录 -->
+        <div class="card collection-auction">
+            <div class="card-header">交易记录</div>
+            <div class="card-content">
+                <div class="card-content-inner">
+                    <div class="info-box">
+                        <div class="info-date">2015-01-19 <span>拍卖</span></div>
+                        <div class="info-show">
+                            <img class="pull-left" src="images/judge.jpg">
+                            <div class="info-detail">
+                                <ul>
+                                    <li>估价：￥350,000~500,000</li>
+                                    <li>成交价：￥465,000</li>
+                                    <li>嘉德拍卖/2015年秋拍卖</li>
+                                    <li class="li-small">嘉德拍卖/2015年秋拍卖</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info-more">更多</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 你的html代码 -->
+        <script type='text/javascript' src='lib/zepto.js' charset='utf-8'></script>
+        <script type='text/javascript' src='lib/sm/0.5.8/js/sm.js' charset='utf-8'></script>
+        <script type='text/javascript' src='lib/sm/0.5.8/js/sm-extend.js' charset='utf-8'></script>
+        <!-- <script type='text/javascript' src='http://g.alicdn.com/sj/lib/zepto/zepto.js' charset='utf-8'></script>
+    <script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.5.8/js/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.5.8/js/sm-extend.js' charset='utf-8'></script> -->
+        <script type='text/javascript' src='./collection.js' charset='utf-8'></script>
 </body>
 
 </html>
