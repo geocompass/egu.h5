@@ -32,20 +32,14 @@ span {
     max-height: 100%;
 }
 
-.swiper-bottom {
-    /*display:  block;*/
-    /*position: relative;*/
-}
-
 .swiper-pagination {
-    bottom: 2.5rem !important;
-    /*bottom: 30px !important;  */
+    bottom: 2.8rem !important;
 }
 
 .collection-title {
     position: relative;
-    bottom: 2.5rem;
-    height: 2.5rem;
+    bottom: 2.8rem;
+    height: 2.8rem;
     line-height: 2.5rem;
     background-color: rgba(52, 52, 52, .5);
     color: rgba(255, 255, 255, 1);
@@ -98,13 +92,14 @@ span {
     float: left;
     margin-right: 10px;
 }
-.shop-info .shop-title .shop-title-info .shop-text{
+
+.shop-info .shop-title .shop-title-info .shop-text {
     font-size: 16px;
 }
-.shop-info .shop-title .shop-title-info .shop-url{
+
+.shop-info .shop-title .shop-title-info .shop-url {
     font-size: 12px;
 }
-
 
 .shop-twitter {
     text-align: center;
@@ -126,10 +121,36 @@ span {
 
 .shop-view span {
     display: inline-block;
-    border: 1px solid gray;
+    border: 1px solid rgba(151, 151, 151, 0.5);
     border-radius: 5px;
     padding: 3px 10px;
     font-size: 14px;
+}
+
+
+/*规格参数*/
+
+.collection-spec .spec-table {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.collection-spec table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+.collection-spec table tr {
+    border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+.collection-spec table td.center {
+    text-align: center;
+}
+
+.collection-spec table td {
+    padding: 3px;
 }
 
 

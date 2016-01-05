@@ -1,0 +1,29 @@
+{
+  "name": "egu.h5",
+  "version": "1.0.0",
+  "description": "this project build for egu app html5 page.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geocompass/egu.h5.git"
+  },
+  "keywords": [
+    "egu",
+    "html5",
+    "collection"
+  ],
+  "author": "wucan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geocompass/egu.h5/issues"
+  },
+  "homepage": "https://github.com/geocompass/egu.h5#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1",
+    "jshint": "^2.8.0"
+  }
+}

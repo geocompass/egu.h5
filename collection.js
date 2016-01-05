@@ -19,7 +19,8 @@ $(function() {
             "images/detail1.jpg",
             "images/detail2.jpg",
             "images/detail3.jpg"
-        ]
+        ],
+        ofText:'/'
     });
     //点击时打开图片浏览器
     $(document).on('click', '.collection-detail img', function() {
